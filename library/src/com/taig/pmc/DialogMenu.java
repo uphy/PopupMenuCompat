@@ -210,9 +210,9 @@ class DialogMenu implements Menu
 
 		private boolean checked;
 
-		private boolean visible;
+		private boolean visible = true;
 
-		private boolean enabled;
+		private boolean enabled = true;
 
 		OnMenuItemClickListener menuItemClickListener;
 
